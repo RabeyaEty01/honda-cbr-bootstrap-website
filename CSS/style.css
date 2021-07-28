@@ -1,0 +1,14 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+body{
+    font-family: Popins;
+}
+/* header styles */
+header{
+    background-color: #264653;
+}
+header h1{
+    font-size: 48px;
+    font-weight: 600;
+}
