@@ -31,6 +31,15 @@ header h1, .section-title{
    background-size: cover;
 }
 
+.honda-card:hover{
+   box-shadow: 15px 15px 40px rgba(230, 83, 83, 0.15);
+   border-image-slice: 1;
+   padding: 10px;
+   transform: scale(1.5);
+   transition: transform 2s ease-in-out;
+   
+   
+}
 
 .card-bg-image-6{
    height:75%;
