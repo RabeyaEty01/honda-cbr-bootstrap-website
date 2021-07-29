@@ -18,3 +18,83 @@ header h1, .section-title{
  .honda-gray-bike{
      filter: grayscale(100%);
  }
+
+
+ 
+/* recent offers section styles */
+
+.card-bg-image-5{
+   height:75%;
+   width:100%;
+   background-image: url(../images/extra-img/1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.card-bg-image-6{
+   height:75%;
+   width:100%;
+   background-image: url(../images/extra-img/2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-7{
+   height:75%;
+   width:100%;
+   background-image: url(../images/extra-img/3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-8{
+   height:75%;
+   width:100%;
+   background-image: url(../images/extra-img/4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-9{
+   height:75%;
+   width:100%;
+   background-image: url(/images/extra-img/5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-10{
+   height:75%;
+   width:100%;
+   background-image: url(/images/extra-img/6.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-11{
+   height:75%;
+   width:100%;
+   background-image: url(/images/extra-img/9.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card-bg-image-12{
+   height:75%;
+   width:100%;
+   background-image: url(/images/extra-img/10.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.card-offer-text-2{
+   margin-bottom: 65%;
+
+
+}
+
+ footer hr{
+     color: white;
+ }
