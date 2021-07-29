@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- header part -->
     <header>
         <nav class="container navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -61,7 +62,8 @@
                             sint.Velit officia consequat duis enim velit<br> mollit.Exercitation veniam consequat sunt
                             nostrud amet.</p>
                         <!-- Button trigger modal -->
-                        <button style="background-color: #E76F51;" type="button" class="btn py-2 px-5 text-center text-white" data-bs-toggle="modal"
+                        <button style="background-color: #E76F51;" type="button"
+                            class="btn py-2 px-5 text-center text-white" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Purchase
                         </button>
@@ -79,21 +81,25 @@
                                     <div class="modal-body">
                                         <form>
                                             <div class="mb-3 d-flex">
-                                              <input type="text" class="form-control" id="fisrt-name" placeholder="First Name"> <br>
-                                              <input type="text" class="form-control" id="last-name" placeholder="Last Name"> 
+                                                <input type="text" class="form-control" id="fisrt-name"
+                                                    placeholder="First Name"> <br>
+                                                <input type="text" class="form-control" id="last-name"
+                                                    placeholder="Last Name">
                                             </div>
                                             <div class="mb-3 d-flex">
-                                              <input type="email" class="form-control" id="email" placeholder="Email"> 
-                                              <input type="phone" class="form-control" id="phone" placeholder="Phone(optional)"> 
+                                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                                <input type="phone" class="form-control" id="phone"
+                                                    placeholder="Phone(optional)">
                                             </div>
                                             <div class="mb-3">
-                                              <label for="message-text" class="col-form-label">Message:</label>
-                                              <textarea class="form-control" id="message-text" placeholder="Is this 2022 Honda RUCKUS for sale? "></textarea>
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"
+                                                    placeholder="Is this 2022 Honda RUCKUS for sale? "></textarea>
                                             </div>
                                             <p>I would also like to see:</p>
                                             <input type="checkbox" name="" id=""> Additional Photos
                                             <input type="checkbox" name="" id=""> Videos
-                                          </form>
+                                        </form>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -119,8 +125,320 @@
         </section>
     </header>
 
-
+    <!-- main part -->
     <main>
+        <!-- featured sections -->
+        <section class="container my-5">
+            <h2 class="section-title text-center">Fetured Bikes 2021</h2>
+            <p style="color: #E76F51;;" class="text-center fs-6">Best bike collection</p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-4">
+                <div class="col">
+                    <div class="card border-0 p-3">
+                        <div class="card border-0 p-3">
+                            <div>
+                                <img src="images/feature-bike.jpg" class="card-img-top honda-gray-bike" alt="...">
+                            </div>
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col rounded-3">
+                    <div class="card border-0 p-3">
+                        <div class="card border-0 p-3">
+                            <div>
+                                <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col rounded-3">
+                    <div class="card border-0 p-3">
+                        <div class="card border-0 p-3">
+                            <div>
+                                <img src="images/feature-bike.jpg" class="card-img-top honda-gray-bike" alt="...">
+                            </div>
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </section>
+        <!-- latest News -->
+        <section class="container my-5">
+            <h2 class="section-title text-center my-5">Latest News</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- single bike  -->
+                <div class="col rounded-3">
+                    <div class="card h-100 p-3">
+                        <div class="bg-light bg-gradient rounded-3">
+                            <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73 </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="p-3">
+
+                            <button style="background-color: #E76F51;" type="button"
+                                class="btn py-2 px-3 text-center text-white" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Read More
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- single shoe  -->
+                <div class="col rounded-3">
+                    <div class="card h-100 p-3">
+                        <div class="bg-light bg-gradient rounded-3">
+                            <img src="images/bike-2.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="p-3">
+
+                            <button style="color: #E76F51;" type="button"
+                                class="btn border-danger py-2 px-3 text-center" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single shoe  -->
+                <div class="col rounded-3">
+                    <div class="card h-100 p-3">
+                        <div class="bg-light bg-gradient rounded-3">
+                            <img src="images/bike-3.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="p-3">
+
+                            <button style="color: #E76F51;" type="button"
+                                class="btn border-danger py-2 px-3 text-center" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- happy clients sections -->
+        <section class="container my-5">
+            <h2 class="section-title text-center my-5">Happy <span style="color: #E76F51;">Clients says</span></h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- single card -->
+                <div class="col rounded-3">
+                    <div class="card">
+                        <div class="d-flex justify-content-center">
+                            <img width="149" height="149" src="images/user-1.png"
+                                class="img-fluid rounded-circle  py-5 mx-auto" alt="...">
+                        </div>
+                        <div class="card-body mx-5">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="text-center my-2">
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="far fa-star"></i>
+
+
+                            </div>
+                            <p class="text-center text-primary">Regina Miles</p>
+                            <p class="fw-bold text-center">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- single card  -->
+                <div class="col rounded-3">
+                    <div class="card">
+                        <div class="d-flex justify-content-center">
+                            <img width="149" height="149" src="images/user-2.png"
+                                class="img-fluid rounded-circle py-5 mx-auto" alt="...">
+                        </div>
+                        <div class="card-body mx-5">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="text-center my-2">
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="far fa-star"></i>
+
+
+                            </div>
+                            <p class="text-center text-primary">Regina Miles</p>
+                            <p class="fw-bold text-center">Banker</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col rounded-3">
+                    <div class="card">
+                        <div class="d-flex justify-content-center">
+                            <img width="249" src="images/user-3 (2).png" class="img-fluid rounded-circle py-3 mx-auto"
+                                alt="...">
+                        </div>
+                        <div class="card-body mx-5">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need to work to reach your financial
+                                goal for the month and year.</p>
+
+                            <div class="text-center my-2">
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="fas fa-star"></i>
+                                <i style="color: #E77C40;" class="far fa-star"></i>
+
+
+                            </div>
+                            <p class="text-center text-primary">Regina Miles</p>
+                            <p class="fw-bold text-center">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- single card  -->
+
+
+            </div>
+
+        </section>
+
+        <!-- frequently asked question sections -->
+
+        <section class="container my-5">
+            <h2 class="section-title text-center my-5">Frequently Asked <span style="color: #E76F51;">Questions</span>
+            </h2>
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 g-4">
+                <div class="col rounded-3 my-4">
+                    <img width="599" class="img-fluid" src="images/faq.png" alt="">
+                </div>
+                <div class="col my-4">
+                    <div class="card p-4 my-4">
+                        <h3 style="font-size: 20px;" class="card-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            What are the most important things I should <br>
+                            know about riding a bike?<i class="fa fa-angle-down  d-flex justify-content-end"></i>
+                        </h3>
+
+                        <div class="collapse" id="collapseOne">
+                            <div class="card-body">
+                                <p> Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card p-4 my-4">
+                        <h3 style="font-size: 20px;" class="card-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                            aria-controls="collapseTwo">
+                            How can I tell if my helmet is old and I need a <br>
+                            new one? <i class="fa fa-angle-down  d-flex justify-content-end"></i>
+                        </h3>
+
+                        <div class="collapse" id="collapseTwo">
+                            <div class="card-body">
+                                <p> Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card p-4">
+                        <h3 style="font-size: 20px;" class="card-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                            aria-controls="collapseThree">
+                            My bike has been in storage is it safe to ride? <i class="fa fa-angle-down  d-flex justify-content-end"></i>
+                        </h3>
+
+                        <div class="collapse" id="collapseThree">
+                            <div class="card-body">
+                                <p> Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card p-4 my-4">
+                        <h3 style="font-size: 20px;" class="card-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                            aria-controls="collapseFour">
+                            What rules should I follow when riding my bike?<i class="fa fa-angle-down  d-flex justify-content-end"></i>
+                        </h3>
+
+                        <div class="collapse" id="collapseFour">
+                            <div class="card-body">
+                                <p> Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+
+
+            </div>
+
+
+        </section>
 
     </main>
 

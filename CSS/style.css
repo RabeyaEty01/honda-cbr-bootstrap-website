@@ -8,7 +8,13 @@ body{
 header{
     background-color: #264653;
 }
-header h1{
+header h1, .section-title{
     font-size: 48px;
     font-weight: 600;
 }
+
+/* featured bike sections styles
+ */
+ .honda-gray-bike{
+     filter: grayscale(100%);
+ }
